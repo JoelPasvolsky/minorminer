@@ -22,7 +22,7 @@ import sys
 # sys.path.insert(0, os.path.abspath('.'))
 config_directory = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.abspath(
-    os.path.join(config_directory, '../..')))
+    os.path.join(config_directory, '..)))
 
 _PY2 = sys.version_info.major == 2
 
